@@ -1,0 +1,34 @@
+Diseñar un esquema (actividad20.xsd), como una secuencia de tres elementos:
+sabor, tipo y tamaño.
+
+Donde sabor puede tomar uno de los siguientes valores: 
+chocolate, fresa, vainilla y limón. 
+
+Tipo, puede tomar uno de los siguientes valores: cono y tarrina.
+Y por último tamaño puede tomar los valores: pequeño, mediano y grande.
+
+Construye además un documento helado2.xml que cumpla este xml schema.
+
+<?xml version="1.0" encoding="UTF-8"?>
+<Libro xmlns:xs="http://www.w3.org/2001/XMLSchema-instance"
+	    xsi:noNamespaceSchemaLocation="ejercicio20.xsd">
+        <!DOCTYPE Productos […….]"> 
+        <Helado>
+            <sabor>
+                <chocolate></chocolate>
+                <fresa></fresa>
+                <vainilla></vainilla>
+                <limón></limón>
+            </sabor>
+            <Tipo>
+                <cono></cono>
+                <tarrina></tarrina>
+            </Tipo>
+            <Tamaño>
+                <pequeño></pequeño>
+                <mediano></mediano>
+                <grande></grande>
+            </Tamaño>
+        </Helado>
+
+    

@@ -1,0 +1,19 @@
+<!--DTD para una relacion de personas de las que tendremos nombre (atributos carnet, edad),
+emails y parentescos.
+Escribe un documento xml válido con su dtd incrustado.-->
+
+<!DOCTYPE Persona
+[
+   <!ELEMENT Persona (nombre/carnet/edad/email/parentesco)>
+   <!ELEMENT Persona dni #ATTLIST>
+   <!ELEMENT nombre #PCDATA>
+   <!ELEMENT carnet #PCDATA>
+   <!ELEMENT edad #PCDATA>
+   <!ELEMENT email #PCDATA>
+   <!ELEMENT parentesco #PCDATA>
+]
+
+<?xml version="1.0" encoding="UTF-8"?>
+<Persona dni="12345">
+    <nombre></nombre>
+    <

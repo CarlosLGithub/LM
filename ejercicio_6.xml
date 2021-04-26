@@ -1,0 +1,21 @@
+<!--
+El elemento raíz XXX debe contener únicamente un elemento AAA seguido de otro elemento
+BBB. Los elementos AAA y BBB pueden contener texto pero no otros elementos
+
+Escribe el archivo actividad6.dtd
+Escribe dos ejemplos de archivo XML válido.
+-->
+
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE XXX SYSTEM "Actividad_06.dtd">
+<XXX>
+    <AAA>Texto</AAA>
+    <BBB>Texto</BBB>
+</XXX>
+
+    --------------------------
+
+<XXX>
+    <AAA>Texto numero 1</AAA>
+    <BBB>Texto numero 2 </BBB>
+</XXX>

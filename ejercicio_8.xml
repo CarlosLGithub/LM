@@ -1,0 +1,21 @@
+<!--
+El elemento raíz XXX puede contener un elemento AAA (1 ó 0) seguido de uno o más
+elementos BBB. El elemento AAA puede contener un elemento CCC y varios elementos DDD. El
+elemento BBB tiene que contener, exactamente, un elemento CCC y un elemento DDD
+Escribe el archivo actividad8.dtd
+
+Escribe un ejemplo de archivo XML válido.
+
+Escribe un ejemplo XML no válido e indica el por qué.
+-->
+
+<?xml version="1.0" encoding="UTF-8"?>
+<XXX>
+    <AAA>
+        <BBB>
+            <CCC>
+                <DDD> </DDD>
+            </CCC>
+        </BBB>
+    </AAA>
+</XXX>

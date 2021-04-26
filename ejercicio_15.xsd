@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<alumno xmlns:xsi=http://www.mialumno.com>
+<alumno xmlns="https://www.w3schools.com"
+		xmlns:xsi="http://www.w3.org/2001/XMLSchema.instance"
+		xsi:noNamespaceSchemaLocation="simple.xsd"> <!-- Tambi�n podr�amos llamar a simple2.xsd -->
+    <nombre>Carlos</nombre
+    <dni>543891X</dni>
+    <direccion>Avenida Pablo Iglesias</direccion>
+    <edad>27 años</edad>
+    <telefono>695336972</telefono>
+</alumno>
+
+
+<xs: element name="alumno">
+    <xs:complexType>
+        <xs:sequence>
+        <xs: element name="nombre" type="xs:string">
+        <xs: element name="dni" type="xs:Tdni">
+        <xs: element name="direccion" type="xs:string">
+        <xs: element name="edad" type="xs:integer">
+        <xs: element name="telefono" type="xs:String">
+        </xs:sequence>
+    <xs:complexType>

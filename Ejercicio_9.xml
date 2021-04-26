@@ -1,0 +1,25 @@
+El elemento raíz XXX debe contener un elemento AAA seguido de un elemento BBB. El
+elemento AAA tiene que contener un elemento CCC seguido de un elemento DDD. El elemento
+BBB tiene que contener bien un elemento CCC o bien un elemento DDD
+
+<?xml version="1.0" encoding="UTF-8"?>
+
+<XXX>
+    <AAA>
+        <CCC>
+            <DDD></DDD>
+        </CCC>
+        <BBB>
+            <DDD></DDD>
+        </BBB>
+    </AAA>
+</XXX>
+
+<!DOCTYPE XXX 
+[
+    <!ELEMENT XXX(AAA)>
+    <!ELEMENT AAA (CCC/BBB)>
+    <!ELEMENT CCC (DDD)>
+    <!ELEMENT BBB(DDD)>
+    <!ELEMENT DDD #PCDATA>
+]

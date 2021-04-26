@@ -1,0 +1,21 @@
+<!-- CODIGO ESCRITO EN XML>
+<!ELEMENT Productos (Item/Impuesto)*>
+<!ELEMENT Item (Cantidad/Volumen/Descripcion/Precio)>
+<ELEMENT Cantidad #PCDATA>
+<ELEMENT Volumen #PCDATA>
+<ELEMENT Descripcion #PCDATA>
+<ELEMENT Precio #PCDATA>
+<ELEMENT Impuesto #PCDATA>
+-->
+
+<!--CODIGO ESCRITO EN XML
+<!ELEMENT Libreta-direcciones(entrada)>
+<!ELEMENT Entrada (Nombre/Direccion/Correo-e)>
+<!ELEMENT nombre #PCDATA>
+<!ELEMENT direccion (Calle/Codigo-postal/Localidad/Pais)>
+<!ELEMENT Calle #PCDATA>
+<!ELEMENT Codigo-postal #PCDATA>
+<!ELEMENT Localidad #PCDATA>
+<!ELEMENT Pais #PCDATA>
+<!ELEMENT Correo-e #PCDATA>
+-->

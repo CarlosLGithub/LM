@@ -1,0 +1,14 @@
+<!-- CODIGO ESCRITO EN XML>
+<!DOCTYPE Libro
+[
+    <!ELEMENT Libro(Titulo/Abstract/Categorias/Precio)>
+    <!ATTLIST Libro isbn ID #CDATA>
+    <!ATTLIST Libro fecha #CDATA #REQUIRED>
+    <!ATTLIST Libro paginas #CDATA>
+    <!ELEMENT Titulo #PCDATA>
+    <!ELEMENT Abstract #PCDATA>
+    <!ELEMENT Categorias(categoria)*>
+    <!ELEMENT Categoria #PCDATA>
+    <!ELEMENT Precio #PCDATA>
+    <!ATTLIST Precio moneda #CDATA (eur|dol|lib)>
+]

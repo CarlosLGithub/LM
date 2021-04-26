@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<helado xmlns:xsi="http://www.w3.org/2001/XMLSchema.instance"
+		xsi:noNamespaceSchemaLocation="simple_19.xsd">
+		<!-- También podríamos llamar a simple2_19.xsd -->
+
+	<sabor>vainilla</sabor>
+	<tipo>tarrina</tipo>
+	<tamaño>grande</tamaño>
+</helado>

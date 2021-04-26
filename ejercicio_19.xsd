@@ -1,0 +1,26 @@
+Diseñar un esquema (actividad19.xsd), donde se defina el elemento helado, 
+y como primer
+elemento podemos elegir o bien chocolate o bien fresa 
+(uno u otro pero no los dos).
+Y como segundo elemento de helado o bien cono o bien tarrina. Pista: usar choice
+
+    <xs:schema xmlns:xs="https://www.w3.org">
+        <xs:element name="Helado">
+            <xs:complexType>
+                <xs:sequence>
+                    <xs:choice>
+                        <xs:element name="chocolate">
+                        <xs:element name="fresa">
+                    </xs:choice>
+                    <xs:choice>
+                        <xs:element name="cono">
+                        <xs:element name="tarrina">
+                    </xs:choice>
+                </xs:sequence>
+            </xs:complexType>
+        </xs:element>
+    </xs:schema>
+
+
+
+                               

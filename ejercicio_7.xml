@@ -1,0 +1,13 @@
+<!--El elemento raíz XXX puede contener ninguno, uno o varios elementos AAA seguido de
+exactamente un elemento BBB. El elemento BBB tiene que estar siempre presente.
+Escribe el archivo actividad7.dtd
+Escribe un ejemplo de archivo XML válido.-->
+
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<XXX>
+    <AAA>
+        <BBB>Texto</BBB>
+    </AAA>
+</XXX>

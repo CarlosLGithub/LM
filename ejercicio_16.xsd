@@ -1,0 +1,38 @@
+<alumno xmlns="https://www.w3.org"
+		xmlns:xsi="http://www.w3.org/2001/XMLSchema.instance"
+		xsi:noNamespaceSchemaLocation="ejercicio_16.xsd">
+
+<xs:element name="alumno">
+    <xs:complexType>
+        <xs:sequence>
+        <xs:element name="nombre" type="xs:string">
+        <xs:simpleType>
+                <xs:restriction base="xs:string">
+                    <xs:whitespace value="collapse"/>
+                    <xs:maxLength value="20">
+                <xs:restriction>
+            <xs:simpleType>
+        <xs:element name="dni" type="xs:string">
+            <xs:simpleType>
+                <xs:restriction base="xs:string">
+					<xs:whitespace value="collapse"/>
+					<xs:pattern value="[0-9]{8}[A-Z]{1}"/>
+				</xs:restriction>
+        <xs:element name="direccion" type="xs:string">
+        <xs:element name="edad" type="xs:integer">
+            <xs:simpleType>
+                <xs:restriction base="xs:integer">
+                    <xs:whitespace value="collapse"/>
+                    <xs:maxLength value="100">
+                    <xs:minLength value="0">
+                <xs:restriction>
+            <xs:simpleType>
+        <xs:element name="telefono" type="xs:integer">
+        <xs:element name="peso" type="xs:decimal">
+            <xs:simpleType>
+                <xs:restriction base="xs:decimal">
+                    <xs:whitespace value="collapse"/>
+                    <xs:totaldigits value="2"/>
+        <xs:element name="altura" type="xs:decimal">
+        </xs:sequence>
+    <xs:complexType>

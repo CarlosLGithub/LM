@@ -1,0 +1,4 @@
+<!DOCTYPE saludo 
+[
+	<!ELEMENT saludo (#PCDATA)>
+]>

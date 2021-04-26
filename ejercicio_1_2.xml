@@ -1,0 +1,32 @@
+<?xml version="1.0"?> 
+<!DOCTYPE Productos […….]"> 
+<Productos> 
+    <Item> 
+        <Cantidad>2</Cantidad> 
+        <Descripcion>Hamburguesas</Descripcion> 
+        <Precio>€2.25</Precio> 
+    </Item> 
+    <Item> 
+        <Volumen>2 Litros</Volumen> 
+        <Descripcion>Coca Cola</Descripcion> 
+        <Precio>€1.25</Precio> 
+    </Item> 
+    <Impuesto>€0.25</Impuesto> 
+</Productos>
+
+<?xml version="1.0" encoding="ISO-8859-1"?> 
+<!DOCTYPE libreta-direcciones SYSTEM "cliente.dtd"> 
+<libreta-direcciones> 
+    <entrada> 
+        <nombre>John Doe</nombre> 
+        <direccion> 
+            <calle>34 Fountain Square Plaza</calle> 
+            <codigo-postal>45202</codigo-postal> 
+            <localidad>Cincinnati</localidad> 
+            <pais>US</pais> 
+        </direccion> 
+        <correo-e href="mailto:jdoe@emailaholic.com"/> 
+    </entrada> 
+</libreta-direcciones>
+
+

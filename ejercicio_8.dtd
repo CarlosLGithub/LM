@@ -1,0 +1,8 @@
+!DOCTYPE XXX SYSTEM "ejercicio_7.dtd"
+[
+    <!ELEMENT XXX (AAA/BBB/CCC/DDD)
+    <!ELEMENT AAA(BBB/CCC/DDD)>
+    <!ELEMENT BBB (CCC/DDD>)
+    <!ELEMENT CCC (DDD)>
+    <!ELEMENT DDD #PCDATA>
+]
