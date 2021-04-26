@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="es-ES">
+
+<head>
+	<title>Pago del postre</title>
+	<meta charset="UTF-8">
+	<link rel="icon" href="imagenes/icono.ico" type="image/ico" />
+</head>
+
+<body bgcolor="#c0c0c0">
+
+	<h2>Aquí podrá comprar el paquete con la oferta correspondiente de la página</h2>
+	<h3> <span>¡Atención! Se necesitan los siguientes requisitos:</span></h3>
+	<ul>
+		<li> <span> Solo se admite la divisa Euro (€).</span> </li>
+		<li> Pertenecer a una comunidad autonoma de España</li>
+		<li> Los envíos fuera de la península ibérica tendrán un coste adicional por el transporte </li>
+	</ul>
+	
+		<fieldset>
+			<legend> <img alt="Imagen para acceder" width="16" src="./imagenes/grupito.png" /> Datos personales
+			</legend>
+			<input type="text" name="text" placeholder="Escriba su DNI (Solo números)" maxlength="8"
+				title="Instroduzca un email válido" pattern="[0-9]*" required /><br />
+			<table>
+				<tbody>
+					<tr>
+						<td><label>Primer Apellido(*) </label><br /><input type="text" name="Apellidos"
+								placeholder="Escriba su primer apellido (en mayúsculas)" maxlength="50"
+								title="Instroduzca solo letras en mayúscula" pattern="[A-Z]*" required /> </td>
+
+						<td><label>Segundo Apellido(*) </label><br /><input type="text" name="Apellidos"
+								placeholder="Escriba su segundo apellido (en mayúsculas)" maxlength="50"
+								title="Instroduzca solo letras en mayúscula" pattern="[A-Z]*" required /> </td>
+
+						<td><label>Nombre(*)</label><br /><input type="text" name="Nombre"
+								placeholder="Escriba su Nombre (En mayúsculas)" maxlength="50"
+								title="Instroduzca solo letras mayúsculas" pattern="[A-Z]*" required /> </td>
+					</tr>
+					<tr>
+						<td> <label> Nacido en (dd/mm/aaaa):<br /><input type="date" value="1990-01-01"></label> </td>
+						<td> <label> Comunidad Autónoma<br /></label>
+							<select name="Comunidades">
+								<option value="1"> Andalucía </option>
+								<option value="3"> Aragón </option>
+								<option value="4"> Principado de Asturias </option>
+								<option value="5"> Baleares </option>
+								<option value="6"> Canarias </option>
+								<option value="7"> Cantabria </option>
+								<option value="8"> Castilla-La Mancha </option>
+								<option value="9"> Castilla y León </option>
+								<option value="10"> Cataluña </option>
+								<option value="11" selected="selected"> Extremadura </option>
+								<option value="12"> Galicia </option>
+								<option value="13"> La Rioja </option>
+								<option value="14"> Comunidad de Madrid </option>
+								<option value="15"> Región de Murcia </option>
+								<option value="16"> Navarra </option>
+								<option value="17"> País Vasco </option>
+								<option value="18"> Valencia </option>
+							</select>
+						<td> <label> Dirección (Ciudad / Calle / Vivienda) <br /> </label> <input type="text"
+								name="Direccion" placeholder="Ciudad/Calle/Vivienda" maxlength="119" required /> </td>
+						<td><label>Codigo Postal<br /></label> <input type="text" name="CP" placeholder="Escribe tu CP"
+								maxlength="5" pattern="[0-9]*" required /> </td>
+					</tr>
+				</tbody>
+			</table>
+		</fieldset>
+		<h2> <span>Por favor, a continuación seleccione el método de pago</span></h2>
+		<fieldset>
+			<table>
+				<tbody>
+					<tr>
+						<td>
+							<h3>Forma de pago</h3>
+						</td>
+					</tr>
+					<tr>
+						<td> <br /> <img alt="Imagen para registrar" width="16" src="./imagenes/tarjeta.svg" /><input
+								type="radio" name="disponivilidad" value="publico" />Tarjeta de crédito</td>
+					</tr>
+					<tr>
+						<td> <label>Número de tarjeta(*)</label><br /><input type="text" name="Tarjeta"
+								placeholder="Escriba el número de su tarjeta (Sin letra)"
+								title="Instroduzca solo números" maxlength="16" pattern="[0-9]*" required="" /> </td>
+						<td> <label> Fecha de caducidad:</label><br /> <input type="date" /></td>
+					</tr>
+					<tr>
+						<td> <img alt="Imagen para registrar" width="16" src="./imagenes/billetes.svg" /><input
+								type="radio" name="disponivilidad" value="dinero" />En metálico</td>
+						<td><br /> (Para realizar un pago en metálico, deberá hacerlo mediante la entrega de un
+							formulario a la entidad bancaria y allí realizará el pago en efectivo ) <button
+								type="button">Descargar Formulario</button> </td>
+					</tr>
+					<tr>
+						<td> <img alt="Imagen para registrar" width="16" src="./imagenes/paysafecard.svg" /><input
+								type="radio" name="disponibilidad" value="publico" />PaysafeCard</td>
+
+					</tr>
+					<tr>
+						<td> <label>Código(*)</label><br /><input type="text" name="Tarjeta"
+								placeholder="Escriba el código de su tarjeta" title="Instroduzca solo números"
+								maxlength="16" pattern="[0-9]*" required="" /> </td>
+						<td><br /> (Este es el método más seguro) <img alt="Imagen para registrar" width="16"
+								src="./imagenes/pulgarArriba.svg" /></td>
+					</tr>
+				</tbody>
+			</table>
+		</fieldset>
+		<button type="submit"><img alt="Imagen para registrar" width="16" src="./imagenes/llave.png" />
+			Confirmar el pago</button>
+		<button type="reset"><img alt="Imagen para borrar" width="16" src="./imagenes/borrar.svg" />
+			Cancelar</button>
+	
+</body>
+
+</html>
